@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/HDL/Debouncing/Debouncing.srcs/sources_1/new/debouncer_delayed_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debouncer_delayed_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/HDL/Debouncing/Debouncing.srcs/sources_1/new/timer_parameter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer_parameter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/HDL/Debouncing/Debouncing.srcs/sim_1/new/debouncer_delayed.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debouncer_delayed
