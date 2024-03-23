@@ -2,4 +2,4 @@ Vivado Simulator 2018.2
 Time resolution is 1 ps
 Test case 0->1 failed!
 Test case 1->0 failed!
-$finish called at time : 180 ns : File "D:/HDL/Debouncing/Debouncing.srcs/sim_1/new/tb_debouncing.v" Line 62
+$finish called at time : 180 ns : File "D:/HDL/Debouncing/Debouncing.srcs/sim_1/new/tb_debouncing.v" Line 70

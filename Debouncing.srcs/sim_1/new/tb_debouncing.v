@@ -6,11 +6,11 @@ module tb_debouncing;
     reg noisy;
     reg timer_done;
     reg timer_flag;
-
+    
     // Outputs
     wire timer_reset;
     wire debounced;
-
+    wire p_edge, n_edge, _edge;
     // Instantiate the debouncing module
     debouncing dut (
         .clk(clk),
@@ -21,7 +21,15 @@ module tb_debouncing;
         .debounced(debounced),
         .timer_flag(timer_flag)
     );
-
+    
+    edge_detector uut (
+            .clk(clk),
+            .reset_n(reset_n),
+            .level(debounced),
+            .p_edge(p_edge),
+            .n_edge(n_edge),
+            ._edge(_edge)
+        );
     // Clock generation
     always #5 clk = ~clk;
 
